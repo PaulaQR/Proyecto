@@ -323,35 +323,6 @@ box-sizing: border-box;
   pointer-events:auto;
 }
 
-/*ProgressBar*/
-progress{
-  width: 100%;
-  height:1rem;
-  background-color: var(--third-color);
-}
-
-progress::-webkit-progress-bar{
-  background-color: var(--third-color);
-}
-
-progress::-webkit-progress-value{
-  background-color: var(--second-color);
-}
-
-progress::-moz-progress-bar{
-  background-color: var(--second-color);
-}
-.progress{
-  margin: 1rem  auto;
-}
-
-.progress > p {
-  margin:0;
-  display: flex;
-  justify-content:space-between;
-  font-size: 0.85rem;
-}
-
 /*Utilities*/
 
 .avatar{
@@ -640,7 +611,7 @@ progress::-moz-progress-bar{
 @media screen and (min-width: 1024px){
   .about{
     display:grid;
-    grid-template-columns: repeat(3, 30%);
+    grid-template-columns: repeat(2, 45%);
     justify-content: space-between;
     align-content: center;
   }
