@@ -2,9 +2,9 @@
 :root{
 
   --first-color :#262626;
-  --second-color : #843333;
+  --second-color : #CC865F;
   --third-color: #A8A8A8;
-  --link-color : #6bd4b5;
+  --link-color : #CC865F;
   --font:'Montserrat', sans-serif;
   --max-width: 1200px;
   --header-height: 4rem;
